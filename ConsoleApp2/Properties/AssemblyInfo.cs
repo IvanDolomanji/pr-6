@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("d34416c9-a5f4-4bea-8dcd-6d17367055c8")]
+[assembly: Guid("a4f4219f-e0a2-4ca5-b742-129d01b19346")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
@@ -29,8 +29,5 @@ using System.Runtime.InteropServices;
 //      Номер сборки
 //      Номер редакции
 //
-// Можно задать все значения или принять номера сборки и редакции по умолчанию 
-// используя "*", как показано ниже:
-// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

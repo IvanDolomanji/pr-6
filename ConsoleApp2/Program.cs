@@ -6,15 +6,58 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            
-            //Дано целое число n, указывающее номер дня недели от 1 до 7.
-            //По указанному номеру n вывести название соответствующего дня недели.
+            //task 1
+            //Random rnd = new Random();
+            //int chislo = rnd.Next(10,99);
+            //Console.WriteLine($"Случайное число {chislo}");
+            ////if(chislo%2==0)
+            ////{
+            ////    Console.WriteLine("число  является четным");
+            ////}
+            ////else 
+            ////{
+            ////    Console.WriteLine("Число не является четным");
+            ////}
+            //string result = chislo % 2 == 0 ? "число четное" : "число нечетное"; 
+            //Console.WriteLine(result);
+            //Console.ReadKey();
+
+            //task 2
+            // Дано целое число n, указывающее номер дня недели от 1 до 7.
+            // По указанному номеру n вывести название соответствующего дня недели.
+            //try
+            //{
             //Console.Write("Номер дня недели=");
             //int day = int.Parse(Console.ReadLine());
+            //    switch (day)
+            //    {
+            //        case 1: Console.WriteLine("Понедельник"); break;
+            //        case 2: Console.WriteLine("Вторник"); break;
+            //        case 3: Console.WriteLine("Среда"); break;
+            //        case 4: Console.WriteLine("Четверг"); break;
+            //        case 5: Console.WriteLine("Пятница"); break;
+            //        case 6: Console.WriteLine("Суббота"); break;
+            //        case 7: Console.WriteLine("Воскресенье"); break;
+            //        default: Console.WriteLine(" "); break;
+            //    }
+            //}
+
+
+
+            //catch
+            //{
+            //}
+            //Console.ReadKey ();
+
+            //task 3
+            //Random rnd = new Random();
+            //int day = rnd.Next(1,7);
+            //Console.WriteLine($"{day}");
+
             //switch (day)
             //{
             //    case 1: Console.WriteLine("Понедельник"); break;
@@ -24,20 +67,17 @@ namespace ConsoleApp2
             //    case 5: Console.WriteLine("Пятница"); break;
             //    case 6: Console.WriteLine("Суббота"); break;
             //    case 7: Console.WriteLine("Воскресенье"); break;
-            //    default:Console.WriteLine(" "); break;
-            //        
+
 
             //}
-            //}
+            //Console.ReadKey();
 
 
-            //catch
-            //{
-            //}
 
+            //task 4
             //По номеру месяца вывести название времени года.
-            //    try 
-            //{ 
+            //try
+            //{
 
             //    Console.Write("Номер месяца=");
             //    int month = int.Parse(Console.ReadLine());
@@ -58,11 +98,12 @@ namespace ConsoleApp2
             //        default: Console.WriteLine(" "); break;
 
             //    }
-            //        Console.Read();
+            //    Console.Read();
 
-            //    }      
-            //    catch { }
+            //}
 
+            //catch { }
+            //task 5
             //Дан признак транспортного средства:
             //a – автомобиль,
             //в – велосипед,
@@ -91,39 +132,28 @@ namespace ConsoleApp2
             //}
             //catch { }
 
+            //task 6
             //Вывести название предмета по введенной первой букве: ф – физика, м – математика, и – история, г – география, б – биология.
-            try
-            {
+            //try
+            //{
 
-                Console.Write("Введите признак=");
-                char Ven = char.Parse(Console.ReadLine());
-                switch (Ven)
-                {
-                    case 'ф': Console.WriteLine("Физика"); break;
-                    case 'м': Console.WriteLine("Математика"); break;
-                    case 'и': Console.WriteLine("История"); break;
-                    case 'г': Console.WriteLine("География"); break;
-                    case 'б': Console.WriteLine("Биология"); break;
+            //    Console.Write("Введите признак=");
+            //    char Ven = char.Parse(Console.ReadLine());
+            //    switch (Ven)
+            //    {
+            //        case 'ф': Console.WriteLine("Физика"); break;
+            //        case 'м': Console.WriteLine("Математика"); break;
+            //        case 'и': Console.WriteLine("История"); break;
+            //        case 'г': Console.WriteLine("География"); break;
+            //        case 'б': Console.WriteLine("Биология"); break;
 
-                    default: Console.WriteLine(" "); break;
+            //        default: Console.WriteLine(" "); break;
 
-                }
-                Console.Read();
+            //    }
+            //    Console.Read();
 
-            }
-            catch { }
-
-
-
-
-
-
-
+            //}
+            //catch { }
         }
     }
 }
-            
-
-        
-    
-
